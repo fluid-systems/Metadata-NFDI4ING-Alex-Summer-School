@@ -1,0 +1,25 @@
+{
+	"JSON": {
+		"ID": "",
+		"label": "",
+		"comment": "UUID6 is used"
+	},
+	"sensor": {
+		"name": "Temperature_Sensor",
+		"type": "DS18B20",
+		"owner": "xxxxxxxxxxx",
+		"manufacturer": "keyestudio",
+		"serial": "xxxxxxxxxxxx",
+		"comment": "",
+		"range": {
+			"min": 0,
+			"max": 0,
+			"units": "xxxxxxxxxxxx"
+		},
+		"accuracy": {
+			"value": 0,
+			"type": "xxxxxxxxxxxx(relative/absolute/fromMaximum)",
+			"unit": "xxxxxxxxxxxx(degree_celsius/percent)"
+		}
+	}
+}

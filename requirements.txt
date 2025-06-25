@@ -1,0 +1,8 @@
+qrcode 
+reportlab
+svglib
+pandas
+openpyxl
+uuid6
+
+ruff
