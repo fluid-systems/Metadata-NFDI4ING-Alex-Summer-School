@@ -1,0 +1,17 @@
+{
+    "JSON": {
+        "ID": "1f051e50-70f8-686a-aa62-bc0e1b38e956",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "instrument": {
+        "name": "raspberry_pi",
+        "type": "single_board_computer",
+        "owner": "xxxxxxxxxxx",
+        "manufacturer": "Raspberry Pi Foundation",
+        "model": "xxxxxxxxxxx",
+        "serial": "xxxxxxxxxxx",
+        "operating_system": "Raspberry Pi OS",
+        "comment": "to get model and serial number put this code in the terminal: cat /proc/cpuinfo"
+    }
+}

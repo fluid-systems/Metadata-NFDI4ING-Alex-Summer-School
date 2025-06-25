@@ -1,0 +1,27 @@
+{
+    "JSON": {
+        "ID": "1f051ed8-0f91-6b16-9a93-0942bc3b052d",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "probe": {
+        "info": "think about all necessary things you should write down, that someone else can understand what you were doing",
+        "name": "xxxxxxxxxxx",
+        "type": "xxxxxxxxxxx",
+        "owner": "xxxxxxxxxxx",
+        "cup": {
+            "volumen": {
+                "value": 0,
+                "unit": "xxxxxxxxxxx"
+            },
+            "color": "xxxxxxxxxxx",
+            "sign": "xxxxxxxxxxx",
+            "material": "xxxxxxxxxxx",
+            "medium": {
+                "name": "xxxxxxxxxxx",
+                "value": 0,
+                "unit": "xxxxxxxxxxx"
+            }
+        }
+    }
+}
