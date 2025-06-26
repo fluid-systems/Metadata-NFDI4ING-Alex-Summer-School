@@ -129,7 +129,7 @@ def generate_pID_QR_code_label(
         product_name = "{} ".format(product_name.upper())
     elif product_name == "kettle":
         product_name = "{} 󱌙".format(product_name.upper())
-    input_text = f"<b>{data_dict['internal_id']} </b><br/>{product_name} <br/><br/>{data_dict['message']} <br/>"
+    input_text = f"<b>{data_dict['internal_id']} </b><br/>{product_name} <br/>"
 
     # Create the main text block and place it on the label canvas.
     text_paragraph = Paragraph(
@@ -152,7 +152,7 @@ def generate_pID_QR_code_label(
     )
 
     # Create the p_ID text block and place it on the label canvas.
-    pid_url_text = f"PID: {data_dict['p_id']}"
+    pid_url_text = "{}<br/>PID: {}".format(data_dict["message"], data_dict["p_id"])
     pID_url_paragraph = Paragraph(
         pid_url_text,
         pid_normal_style,
