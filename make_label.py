@@ -9,21 +9,19 @@ def main():
     # - label.pdf: Printable QR code label
     # - qr.svg: QR code in SVG format
 
-    devices_infomation = (
-        [
-            {
-                # Raspberry Pi device with a specific UUID
-                "device_type": "raspberrypi",
-                "uuid": "1f051e50-70f8-686a-aa62-bc0e1b38e956",  # Pre-defined UUID
-                "message": "Raspberry Pi as example",  # Custom message for the label
-            },
-            {
-                # Kettle device - UUID will be auto-generated
-                "device_type": "kettle",
-                # Note: No UUID specified, so a new one will be generated automatically
-            },
-        ],
-    )
+    devices_infomation = [
+        {
+            # Raspberry Pi device with a specific UUID
+            "device_type": "raspberrypi",
+            "uuid": "1f051e50-70f8-686a-aa62-bc0e1b38e956",  # Pre-defined UUID
+            "message": "Raspberry Pi as example",  # Custom message for the label
+        },
+        {
+            # Kettle device - UUID will be auto-generated
+            "device_type": "kettle",
+            # Note: No UUID specified, so a new one will be generated automatically
+        },
+    ]
 
     # Documentation of generate_files funktion:
 
