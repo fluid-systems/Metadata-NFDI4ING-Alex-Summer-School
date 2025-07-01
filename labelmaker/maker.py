@@ -14,17 +14,17 @@ SUPPORTED_DEVICES_TYPES = [
 
 
 def generate_files(
-    devices_infomation: list[dict],
+    devices_information: list[dict],
     generate_path: [str, Path] = Path(__file__).parent.parent,
 ):
-    """Generate devices metadata template and QR code labels.
+    """Generate device metadata templates and QR code labels.
 
     This function processes a list of device information dictionaries and generates
     the corresponding files for each device, including JSON metadata files and
     QR code labels. Each device gets its own directory named after its UUID.
 
     Args:
-        devices_infomation (list[dict]): List of dictionaries containing device information.
+        devices_information (list[dict]): List of dictionaries containing device information.
             Each dictionary should contain:
                 - device_type (str): Type of sensor/device (required). Must be one of
                   the supported types: temperature, acceleration, raspberrypi, kettle.
@@ -42,7 +42,7 @@ def generate_files(
     """
     _generate_dir(generate_path)
 
-    for device in devices_infomation:
+    for device in devices_information:
         device_type: str = device.get("device_type", None)
         if device_type is None:
             raise ValueError("Sensor type is required in device information.")
