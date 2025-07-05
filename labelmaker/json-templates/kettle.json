@@ -5,23 +5,26 @@
 		"comment": "UUID6 is used"
 	},
 	"probe": {
-		"info": "think about all necessary things you should write down, that someone else can understand what you were doing",
-		"name": "xxxxxxxxxxx",
-		"type": "xxxxxxxxxxx",
-		"owner": "xxxxxxxxxxx",
-		"cup": {
+		"name": "",
+		"type": "kettle",
+		"owner": "",
+		"properties": {
 			"volumen": {
 				"value": 0,
-				"unit": "xxxxxxxxxxx"
+				"unit": ""
 			},
-			"color": "xxxxxxxxxxx",
-			"sign": "xxxxxxxxxxx",
-			"material": "xxxxxxxxxxx",
+			"power": {
+				"value": 0,
+				"unit": ""
+			},
+			"color": "",
+			"material": "",
 			"medium": {
-                "name": "xxxxxxxxxxx",
+                "name": "",
                 "value": 0,
-                "unit": "xxxxxxxxxxx"
+                "unit": ""
                 }
-		}
+		},
+		"comment": ""
 	}
 }

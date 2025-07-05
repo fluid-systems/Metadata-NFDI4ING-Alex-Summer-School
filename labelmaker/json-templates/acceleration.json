@@ -5,9 +5,9 @@
         "comment": "UUID6 is used"
     },
     "sensor": {
-        "name": "accelerometer",
+        "name": "",
         "type": "ADXL345",
-        "owner": "xxxxxxxxxxx",
+        "owner": "",
         "range": {
             "config_1": {
                 "min": -2,
@@ -17,30 +17,30 @@
         },
         "frequency": {
             "config_1": {
-                "value": 3200,
+                "value": 100,
                 "units": "Hertz"
             }
         },
         "resolution": {
-            "value": 4,
-            "unit": "milli_standard_gravity_per_LSB",
-            "comment": "LSB = least significant bit)"
+            "value": 0,
+            "unit": "",
+            "comment": ""
         },
         "0g-offset": {
             "x-axes": {
-                "min": -150,
-                "max": 150,
-                "units": "milli_standard_gravity"
+                "min": 0,
+                "max": 0,
+                "units": ""
             },
             "y-axes": {
-                "min": -150,
-                "max": 150,
-                "units": "milli_standard_gravity"
+                "min": 0,
+                "max": 0,
+                "units": ""
             },
             "z-axes": {
-                "min": -250,
-                "max": 250,
-                "units": "milli_standard_gravity"
+                "min": 0,
+                "max": 0,
+                "units": ""
             }
         },
         "comment": ""

@@ -5,21 +5,21 @@
 		"comment": "UUID6 is used"
 	},
 	"sensor": {
-		"name": "Temperature_Sensor",
+		"name": "",
 		"type": "DS18B20",
-		"owner": "xxxxxxxxxxx",
-		"manufacturer": "keyestudio",
-		"serial": "xxxxxxxxxxxx",
-		"comment": "",
+		"owner": "",
+		"manufacturer": "",
+		"serial": "",
 		"range": {
 			"min": 0,
 			"max": 0,
-			"units": "xxxxxxxxxxxx"
+			"units": ""
 		},
 		"accuracy": {
 			"value": 0,
-			"type": "xxxxxxxxxxxx(relative/absolute/fromMaximum)",
-			"unit": "xxxxxxxxxxxx(degree_celsius/percent)"
-		}
+			"type": "(relative/absolute/fromMaximum)",
+			"unit": "(degree_celsius/percent)"
+		},
+		"comment": ""
 	}
 }
