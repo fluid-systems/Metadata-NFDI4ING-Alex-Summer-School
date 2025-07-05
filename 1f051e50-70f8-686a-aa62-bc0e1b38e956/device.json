@@ -5,13 +5,13 @@
         "comment": "UUID6 is used"
     },
     "instrument": {
-        "name": "raspberry_pi",
-        "type": "single_board_computer",
-        "owner": "xxxxxxxxxxx",
+        "name": "Raspberry Pi 5",
+        "type": "single-board computer",
+        "owner": "Xia",
         "manufacturer": "Raspberry Pi Foundation",
-        "model": "xxxxxxxxxxx",
-        "serial": "xxxxxxxxxxx",
-        "operating_system": "Raspberry Pi OS",
-        "comment": "to get model and serial number put this code in the terminal: cat /proc/cpuinfo"
+        "serial": "8a9e773591b6e92c",
+        "model": "Raspberry Pi 5 Model B Rev 1.0",
+        "operating_system": "Debian 1:6.12.25-1+rpt1",
+        "comment": "Private Raspberry Pi 5 used for development and testing purposes."
     }
 }

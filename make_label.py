@@ -17,6 +17,7 @@ def main():
             "message": "Raspberry Pi as example",
         },
         {
+            "uuid": "1f051ed8-0f91-6b16-9a93-0942bc3b052d",
             # Kettle device - UUID will be auto-generated
             "device_type": "kettle",
             # Note: No UUID specified, so a new one will be generated automatically

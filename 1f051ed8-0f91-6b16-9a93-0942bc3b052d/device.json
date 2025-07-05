@@ -5,23 +5,26 @@
         "comment": "UUID6 is used"
     },
     "probe": {
-        "info": "think about all necessary things you should write down, that someone else can understand what you were doing",
-        "name": "xxxxxxxxxxx",
-        "type": "xxxxxxxxxxx",
-        "owner": "xxxxxxxxxxx",
-        "cup": {
+        "name": "Wasserkocher",
+        "type": "kettle",
+        "owner": "FST",
+        "properties": {
             "volumen": {
-                "value": 0,
-                "unit": "xxxxxxxxxxx"
+                "value": 2.5,
+                "unit": "Liter"
             },
-            "color": "xxxxxxxxxxx",
-            "sign": "xxxxxxxxxxx",
-            "material": "xxxxxxxxxxx",
+            "power": {
+                "value": 1850,
+                "unit": "watt"
+            },
+            "color": "transparent",
+            "material": "glass",
             "medium": {
-                "name": "xxxxxxxxxxx",
-                "value": 0,
-                "unit": "xxxxxxxxxxx"
+                "name": "Water",
+                "value": 1,
+                "unit": "Liter"
             }
-        }
+        },
+        "comment": "A kettle used for NFDI4ING Summer School."
     }
 }
