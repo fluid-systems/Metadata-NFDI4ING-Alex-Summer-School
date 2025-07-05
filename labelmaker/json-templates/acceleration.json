@@ -4,7 +4,7 @@
         "label": "",
         "comment": "UUID6 is used"
     },
-    "sensor": {
+    "device": {
         "name": "",
         "type": "ADXL345",
         "owner": "",

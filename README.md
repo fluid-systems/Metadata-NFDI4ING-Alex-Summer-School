@@ -3,6 +3,7 @@
 This repository is used during the summer school for storing and managing device metadata. Use the `make_label.py` script to generate all necessary files including QR code labels and JSON metadata for your devices. After generating your files, please commit and push them to the repository.
 
 Make sure you have permission to push to this repository. If you are not sure, please ask the organizer. Please follow these steps to generate an access token: 
+
 1. Log in at [RWTH-Aachen GitLab instance](https://git.rwth-aachen.de/users/sign_in) with `DFN-AAI` or `GitHub account`.
 2. Click your avatar on the top left of the webpage after logging in and select `Preferences`. The text after @ is your username.
 3. Then go to `Access tokens` on the left side and select `Add new token` on the right side of the page.

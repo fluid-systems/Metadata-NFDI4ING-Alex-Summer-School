@@ -4,7 +4,7 @@
         "label": "",
         "comment": "UUID6 is used"
     },
-    "probe": {
+    "device": {
         "name": "Wasserkocher",
         "type": "kettle",
         "owner": "FST",

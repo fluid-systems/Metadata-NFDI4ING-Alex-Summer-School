@@ -4,7 +4,7 @@
 		"label": "",
 		"comment": "UUID6 is used"
 	},
-	"probe": {
+	"device": {
 		"name": "",
 		"type": "kettle",
 		"owner": "",
