@@ -1,0 +1,48 @@
+{
+    "JSON": {
+        "ID": "1f05b3c6-e7a5-663d-be8a-0f88f8a041ed",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "Accelerometer",
+        "type": "ADXL345",
+        "owner": "TU Darmstadt",
+        "range": {
+            "config_1": {
+                "min": -2,
+                "max": 2,
+                "units": "standard_gravity"
+            }
+        },
+        "frequency": {
+            "config_1": {
+                "value": 100,
+                "units": "Hertz"
+            }
+        },
+        "resolution": {
+            "value": 3,9
+            "unit": "mg/LSB",
+            "comment": ""
+        },
+        "0g-offset": {
+            "x-axes": {
+                "min": 0,
+                "max": 0,
+                "units": ""
+            },
+            "y-axes": {
+                "min": 0,
+                "max": 0,
+                "units": ""
+            },
+            "z-axes": {
+                "min": 0,
+                "max": 0,
+                "units": ""
+            }
+        },
+        "comment": ""
+    }
+}

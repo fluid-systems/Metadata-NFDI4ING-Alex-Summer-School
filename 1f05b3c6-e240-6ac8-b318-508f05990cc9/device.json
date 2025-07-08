@@ -1,0 +1,31 @@
+{
+    "JSON": {
+        "ID": "1f05b3c6-e240-6ac8-b318-508f05990cc9",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": " Korona",
+        "type": "kettle",
+        "owner": "TU Darmstadt",
+        "properties": {
+            "volumen": {
+                "value": 1,2
+                "unit": "Liter"
+            },
+            "power": {
+                "value": 2200,
+                "unit": "Watt"
+            },
+            "color": "Schwarz",
+            "material": "Glas",
+            "medium": {
+                "name": "Wasser",
+                "value": 1,0
+                "unit": "Liter"
+            }
+        },
+        "comment": ""
+    }
+}
+ 

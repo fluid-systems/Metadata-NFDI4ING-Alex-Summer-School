@@ -1,0 +1,25 @@
+{
+    "JSON": {
+        "ID": "1f05b3c6-e464-6dfa-9107-629a79adbebe",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "temperatur inside",
+        "type": "DS18B20",
+        "owner": "TU Darmstadt",
+        "manufacturer": "MAXIM",
+        "serial": "28-3c01f0960a6e",
+        "range": {
+            "min": -55
+            "max": 125
+            "units": "degree_celsius"
+        },
+        "accuracy": {
+            "value": +/- 0,5
+            "type": "from -10°C to +85°C",
+            "unit": "degree_celsius)"
+        },
+        "comment": ""
+    }
+}

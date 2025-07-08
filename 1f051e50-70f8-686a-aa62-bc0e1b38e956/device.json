@@ -5,13 +5,13 @@
         "comment": "UUID6 is used"
     },
     "device": {
-        "name": "Raspberry Pi 5",
+        "name": "Raspberry Pi",
         "type": "single-board computer",
-        "owner": "Xia",
-        "manufacturer": "Raspberry Pi Foundation",
-        "serial": "8a9e773591b6e92c",
-        "model": "Raspberry Pi 5 Model B Rev 1.0",
-        "operating_system": "Debian 1:6.12.25-1+rpt1",
-        "comment": "Private Raspberry Pi 5 used for development and testing purposes."
+        "owner": "TU Darmstadt",
+        "manufacturer": "Raspberry Pi",
+        "serial": "100000004c5f8333",
+        "model": "Raspberry Pi 4 Model B Rev 1.5",
+        "operating_system": "Debian GNU/Linux 12 (bookworm)",
+        "comment": ""
     }
 }
