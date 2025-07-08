@@ -1,0 +1,25 @@
+{
+    "JSON": {
+        "ID": "1f05bf45-9549-61dc-a41b-060f60fedbba",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "Temperature kettle",
+        "type": "DS18B20",
+        "owner": "FST",
+        "manufacturer": "",
+        "serial": "3ce10457fb94",
+        "range": {
+            "min": -55,
+            "max": 125,
+            "units": "degree celsius"
+        },
+        "accuracy": {
+            "value": 0.5,
+            "type": "absolute",
+            "unit": "degree celsius"
+        },
+        "comment": ""
+    }
+}
