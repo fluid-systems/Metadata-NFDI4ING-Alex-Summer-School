@@ -1,0 +1,25 @@
+{
+    "JSON": {
+        "ID": "1f05bf45-b2eb-629d-8547-e80cf87d8190",
+        "label": "DS18B20-external",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "DS18B20-external",
+        "type": "DS18B20",
+        "owner": "FST",
+        "manufacturer": "",
+        "serial": "3ce10457aaf5",
+        "range": {
+            "min": -55,
+            "max": 125,
+            "units": "deg C"
+        },
+        "accuracy": {
+            "value": 0.5,
+            "type": "absolute",
+            "unit": "deg C"
+        },
+        "comment": ""
+    }
+}

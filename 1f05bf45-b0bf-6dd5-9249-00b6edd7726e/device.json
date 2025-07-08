@@ -1,0 +1,30 @@
+{
+    "JSON": {
+        "ID": "1f05bf45-b0bf-6dd5-9249-00b6edd7726e",
+         "label": "Kettle",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "kettle",
+        "type": "kettle",
+        "owner": "FST",
+        "properties": {
+            "volumen": {
+                "value": 1.2,
+                "unit": "L"
+            },
+            "power": {
+                "value": 1850,
+                "unit": "Watt"
+            },
+            "color": "transparent",
+            "material": "glass",
+            "medium": {
+                "name": "water",
+                "value": 1.0,
+                "unit": "L"
+            }
+        },
+        "comment": ""
+    }
+}

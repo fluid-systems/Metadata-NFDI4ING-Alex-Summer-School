@@ -1,0 +1,25 @@
+{
+    "JSON": {
+        "ID": "1f05bf45-b4b6-6add-b80f-1d5456c59cff",
+        "label": "DS18B20-kettle",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "DS18B20-kettle",
+        "type": "DS18B20",
+        "owner": "FST",
+        "manufacturer": "",
+        "serial": "3c70e38112e7",
+        "range": {
+            "min": -55,
+            "max": 125,
+            "units": "deg C"
+        },
+        "accuracy": {
+            "value": 0.5,
+            "type": "absolute",
+            "unit": "deg C"
+        },
+        "comment": ""
+    }
+}
