@@ -1,0 +1,48 @@
+{
+    "JSON": {
+        "ID": "1f05bf45-aed2-6b89-8bd2-a6515eaad18c",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "accelerometer",
+        "type": "ADXL345",
+        "owner": "",
+        "range": {
+            "config_1": {
+                "min": -2,
+                "max": 2,
+                "units": "standard_gravity"
+            }
+        },
+        "frequency": {
+            "config_1": {
+                "value": 100,
+                "units": "Hertz"
+            }
+        },
+        "resolution": {
+            "value": 3.9,
+            "unit": "mg/LSB",
+            "comment": ""
+        },
+        "0g-offset": {
+            "x-axes": {
+                "min": -150,
+                "max": 150,
+                "units": "mg"
+            },
+            "y-axes": {
+                "min": -150,
+                "max": 150,
+                "units": "mg"
+            },
+            "z-axes": {
+                "min": -250,
+                "max": 250,
+                "units": "mg"
+            }
+        },
+        "comment": ""
+    }
+}

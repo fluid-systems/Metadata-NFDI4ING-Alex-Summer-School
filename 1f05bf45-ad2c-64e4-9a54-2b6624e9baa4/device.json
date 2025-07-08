@@ -1,0 +1,25 @@
+{
+    "JSON": {
+        "ID": "1f05bf45-ad2c-64e4-9a54-2b6624e9baa4",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "",
+        "type": "DS18B20",
+        "owner": "",
+        "manufacturer": "Maxim",
+        "serial": "3cebe381ba51",
+        "range": {
+            "min": -55,
+            "max": 125,
+            "units": "degrees_celsius"
+        },
+        "accuracy": {
+            "value": 0,
+            "type": "absolute",
+            "unit": "degree_celsius"
+        },
+        "comment": ""
+    }
+}

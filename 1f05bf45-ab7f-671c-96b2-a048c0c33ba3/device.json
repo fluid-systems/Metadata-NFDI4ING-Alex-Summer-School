@@ -1,0 +1,25 @@
+{
+    "JSON": {
+        "ID": "1f05bf45-ab7f-671c-96b2-a048c0c33ba3",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "Ambient",
+        "type": "DS18B20",
+        "owner": "",
+        "manufacturer": "Maxim",
+        "serial": "3ce1e38034b0",
+        "range": {
+            "min": -55,
+            "max": 125,
+            "units": "degrees_celsius"
+        },
+        "accuracy": {
+            "value": 0.5,
+            "type": "absolute",
+            "unit": "degree_celsius"
+        },
+        "comment": ""
+    }
+}
