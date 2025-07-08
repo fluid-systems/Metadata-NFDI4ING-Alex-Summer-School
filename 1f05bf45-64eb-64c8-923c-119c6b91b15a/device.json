@@ -1,0 +1,25 @@
+{
+    "JSON": {
+        "ID": "1f05bf45-64eb-64c8-923c-119c6b91b15a",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "Sensor Environment",
+        "type": "DS18B20",
+        "owner": "FST",
+        "manufacturer": "",
+        "serial": "0000000000001",
+        "range": {
+            "min": -55,
+            "max": 125,
+            "units": "degree celsius"
+        },
+        "accuracy": {
+            "value": 0.5,
+            "type": "absolute",
+            "unit": "degree celsius"
+        },
+        "comment": ""
+    }
+}
