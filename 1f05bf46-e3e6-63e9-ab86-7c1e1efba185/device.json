@@ -1,0 +1,30 @@
+{
+    "JSON": {
+        "ID": "1f05bf46-e3e6-63e9-ab86-7c1e1efba185",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "wasserkocher",
+        "type": "kettle",
+        "owner": "FST",
+        "properties": {
+            "volumen": {
+                "value": 2.5,
+                "unit": "L"
+            },
+            "power": {
+                "value": 1850,
+                "unit": "W"
+            },
+            "color": "transparent",
+            "material": "Glass",
+            "medium": {
+                "name": "Water",
+                "value": 1.0,
+                "unit": "L"
+            }
+        },
+        "comment": ""
+    }
+}
