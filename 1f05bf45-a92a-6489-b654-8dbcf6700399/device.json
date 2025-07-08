@@ -1,0 +1,17 @@
+{
+    "JSON": {
+        "ID": "1f05bf45-a92a-6489-b654-8dbcf6700399",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "raspsberry pi",
+        "type": "single-board computer",
+        "owner": "FST",
+        "manufacturer": "Raspberry Pi Foundation",
+        "serial": "100000006c1e12d9",
+        "model": "Raspberry Pi 4 Model B Rev 1.5",
+        "operating_system": "Raspberry Pi OS",
+        "comment": ""
+    }
+}

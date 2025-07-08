@@ -1,6 +1,6 @@
 {
     "JSON": {
-        "ID": "1f05bf45-83b2-6d2a-8537-83e9b6939e26",
+        "ID": "1f05bf43-0597-65bc-a0a5-4c8feb44fc85",
         "label": "",
         "comment": "UUID6 is used"
     },
@@ -9,7 +9,7 @@
         "type": "DS18B20",
         "owner": "FST",
         "manufacturer": "",
-        "serial": "3ce104577b23",
+        "serial": "3c9b0457b6da",
         "range": {
             "min": -55,
             "max": 125,

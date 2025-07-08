@@ -1,15 +1,15 @@
 {
     "JSON": {
-        "ID": "1f05bf45-83b2-6d2a-8537-83e9b6939e26",
+        "ID": "1f05bf43-0726-6bc2-8ec9-3201b29afd59",
         "label": "",
         "comment": "UUID6 is used"
     },
     "device": {
-        "name": "Sensor Environment",
+        "name": "Sensor Kettle",
         "type": "DS18B20",
         "owner": "FST",
         "manufacturer": "",
-        "serial": "3ce104577b23",
+        "serial": "3ca4f649c32a",
         "range": {
             "min": -55,
             "max": 125,

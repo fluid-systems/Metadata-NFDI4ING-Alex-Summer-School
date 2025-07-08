@@ -1,15 +1,15 @@
 {
     "JSON": {
-        "ID": "1f05bf45-83b2-6d2a-8537-83e9b6939e26",
+        "ID": "1f05bf45-adb9-64de-a786-a7c52afe12b3",
         "label": "",
         "comment": "UUID6 is used"
     },
     "device": {
-        "name": "Sensor Environment",
+        "name": " Sensor Environment",
         "type": "DS18B20",
         "owner": "FST",
         "manufacturer": "",
-        "serial": "3ce104577b23",
+        "serial": "3ce10457d8a9",
         "range": {
             "min": -55,
             "max": 125,

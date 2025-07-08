@@ -1,6 +1,6 @@
 {
     "JSON": {
-        "ID": "1f05bf45-83b2-6d2a-8537-83e9b6939e26",
+        "ID": "1f05bf46-e5d4-6bfa-833a-e5b25bf29a87",
         "label": "",
         "comment": "UUID6 is used"
     },
@@ -9,7 +9,7 @@
         "type": "DS18B20",
         "owner": "FST",
         "manufacturer": "",
-        "serial": "3ce104577b23",
+        "serial": "3ce10457fbed",
         "range": {
             "min": -55,
             "max": 125,
@@ -18,7 +18,7 @@
         "accuracy": {
             "value": 0.5,
             "type": "absolute",
-            "unit": "degree celsius"
+            "unit": "degree_celsius"
         },
         "comment": ""
     }
