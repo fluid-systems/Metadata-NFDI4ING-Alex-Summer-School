@@ -10,7 +10,7 @@
         "owner": "FST",
         "manufacturer": "",
         "serial": "3ce104577b23",
-        "range": ""
+        "range": {
             "min": -55,
             "max": 125,
             "units": "degree celsius"
