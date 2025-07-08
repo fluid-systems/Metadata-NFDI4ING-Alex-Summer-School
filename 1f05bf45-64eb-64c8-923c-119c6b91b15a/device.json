@@ -9,7 +9,7 @@
         "type": "DS18B20",
         "owner": "FST",
         "manufacturer": "",
-        "serial": "0000000000001",
+        "serial": "3ce1045710ad",
         "range": {
             "min": -55,
             "max": 125,
