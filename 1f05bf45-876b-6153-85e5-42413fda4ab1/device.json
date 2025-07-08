@@ -1,0 +1,48 @@
+{
+    "JSON": {
+        "ID": "1f05bf45-876b-6153-85e5-42413fda4ab1",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "accelerometer",
+        "type": "ADXL345",
+        "owner": "FST",
+        "range": {
+            "config_1": {
+                "min": -2,
+                "max": 2,
+                "units": "standard_gravity"
+            }
+        },
+        "frequency": {
+            "config_1": {
+                "value": 100,
+                "units": "Hertz"
+            }
+        },
+        "resolution": {
+            "value": 4,
+            "unit": "milli_standard_gravity",
+            "comment": ""
+        },
+        "0g-offset": {
+            "x-axes": {
+                "min": -150,
+                "max": 150,
+                "units": "milli_standard_gravity"
+            },
+            "y-axes": {
+                "min": -150,
+                "max": 150,
+                "units": "milli_standard_gravity"
+            },
+            "z-axes": {
+                "min": -250,
+                "max": 250,
+                "units": "milli_standard_gravity"
+            }
+        },
+        "comment": ""
+    }
+}

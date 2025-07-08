@@ -1,0 +1,25 @@
+{
+    "JSON": {
+        "ID": "1f05bf45-85cb-6877-a967-1dfab90397df",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "Sensor Kettle",
+        "type": "DS18B20",
+        "owner": "FST",
+        "manufacturer": "",
+        "serial": "3c8ef649c341",
+        "range": {
+            "min": -55,
+            "max": 125,
+            "units": "degree celsius"
+        },
+        "accuracy": {
+            "value": 0.5,
+            "type": "absolute",
+            "unit": "degree celsius"
+        },
+        "comment": ""
+    }
+}
