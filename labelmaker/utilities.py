@@ -152,24 +152,27 @@ def generate_pID_QR_code_label(
     )
 
     # Create the p_ID text block and place it on the label canvas.
-    pid_url_text = "{}<br/>PID: {}".format(data_dict["message"], data_dict["p_id"])
-    pID_url_paragraph = Paragraph(
-        pid_url_text,
-        pid_normal_style,
-        bulletText=None,
-        frags=None,
-        caseSensitive=1,
-        encoding="utf8",
-    )
+    if data_dict["p_id"] != "":
+        pid_url_text = "{}<br/>PID: {}".format(data_dict["message"], data_dict["p_id"])
+        pID_url_paragraph = Paragraph(
+            pid_url_text,
+            pid_normal_style,
+            bulletText=None,
+            frags=None,
+            caseSensitive=1,
+            encoding="utf8",
+        )
 
-    # TODO: FIXME: The wrapping isn't that easy with two paragraphs.
-    w_pid_url_text, h_pid_url_text = pID_url_paragraph.wrap(
-        LABEL_SIZE[0] - LABEL_SIZE[1] - padding_length_in_points / 2,
-        LABEL_SIZE[1] - 2 * padding_length_in_points,
-    )
-    pID_url_paragraph.drawOn(
-        canvas, LABEL_SIZE[1] * 1, padding_length_in_points + normal_style.fontSize / 4
-    )  # LABEL_SIZE[1] - padding_length_in_points - normal_style.fontSize / 4 - h_text - h_pid_url_text)
+        # TODO: FIXME: The wrapping isn't that easy with two paragraphs.
+        w_pid_url_text, h_pid_url_text = pID_url_paragraph.wrap(
+            LABEL_SIZE[0] - LABEL_SIZE[1] - padding_length_in_points / 2,
+            LABEL_SIZE[1] - 2 * padding_length_in_points,
+        )
+        pID_url_paragraph.drawOn(
+            canvas,
+            LABEL_SIZE[1] * 1,
+            padding_length_in_points + normal_style.fontSize / 4,
+        )  # LABEL_SIZE[1] - padding_length_in_points - normal_style.fontSize / 4 - h_text - h_pid_url_text)
 
     canvas.save()
 

@@ -13,13 +13,9 @@ def main():
             "device_type": "raspberrypi",
             # Pre-defined UUID
             "uuid": "1f051e50-70f8-686a-aa62-bc0e1b38e956",
+            "link": "https://git.rwth-aachen.de/fst-tuda/public/lehre/metadata-alex-summer-school/-/blob/main/1f05bf47-0cb4-6040-98f3-5bf9c187be3f/device.json",
             # Custom message for the label, please think of meaningful message.
-            "message": "Raspberry Pi as example",
-        },
-        {
-            # Kettle device - UUID will be auto-generated
-            "device_type": "kettle",
-            # Note: No UUID specified, so a new one will be generated automatically
+            "message": "test",
         },
     ]
 

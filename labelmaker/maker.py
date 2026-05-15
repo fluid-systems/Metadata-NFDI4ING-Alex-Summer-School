@@ -60,35 +60,41 @@ def generate_files(
         message = device.get("message", "")
         path_for_generated_files = generate_path / uuid
 
+        data_dict = {
+            "internal_id": uuid,
+            "product_name": device_type,
+            "message": message,
+            "link": http_link,
+            "p_id": device.get("p_id", ""),
+        }
+
         _generate_json_file(device_type, uuid, path_for_generated_files)
 
-        if http_link:
-            _generate_label(device_type, http_link, message, path_for_generated_files)
-        else:
-            _generate_label(device_type, uuid, message, path_for_generated_files)
+        _generate_label(data_dict, path_for_generated_files)
 
 
 def _generate_label(
-    device_type: str, uuid: str, message: str, path_for_generated_files: [str, Path]
+    data_dict: dict,
+    path_for_generated_files: [str, Path],
 ):
     if isinstance(path_for_generated_files, str):
         path_for_generated_files = Path(path_for_generated_files)
     path_for_generated_files.mkdir(parents=True, exist_ok=True)
 
-    data_dict = {
-        "internal_id": uuid,
-        "product_name": device_type,
-        "message": message,
-        # "p_id": "https://w3id.org/fst/resource/{}".format(uuid),
-        "p_id": "",
-    }
+    assert "internal_id" in data_dict
+    assert "product_name" in data_dict
+    assert "message" in data_dict
 
     # Name the file after the uuid.
     label_file_path: Path = Path(path_for_generated_files / "label.pdf")
     qr_code_file_path: Path = Path(path_for_generated_files / "qr.svg")
 
     # Generate the QR code and the QR code label.
-    utilities.generate_QR_code(data_dict["internal_id"], qr_code_file_path)
+    if "link" in data_dict:
+        qr_content = data_dict["link"]
+    else:
+        qr_content = data_dict["internal_id"]
+    utilities.generate_QR_code(qr_content, qr_code_file_path)
     print("[INFO] QR code generated at: {}".format(qr_code_file_path))
     utilities.generate_pID_QR_code_label(label_file_path, qr_code_file_path, data_dict)
     print("[INFO] Label generated at: {}".format(label_file_path))
