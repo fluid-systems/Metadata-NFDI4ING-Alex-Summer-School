@@ -54,13 +54,18 @@ def generate_files(
             )
 
         uuid = device.get("uuid", _generate_uuid())
+        http_link = device.get("link", None)
         _generate_dir(generate_path / uuid)
 
         message = device.get("message", "")
         path_for_generated_files = generate_path / uuid
 
         _generate_json_file(device_type, uuid, path_for_generated_files)
-        _generate_label(device_type, uuid, message, path_for_generated_files)
+
+        if http_link:
+            _generate_label(device_type, http_link, message, path_for_generated_files)
+        else:
+            _generate_label(device_type, uuid, message, path_for_generated_files)
 
 
 def _generate_label(
@@ -74,7 +79,8 @@ def _generate_label(
         "internal_id": uuid,
         "product_name": device_type,
         "message": message,
-        "p_id": "https://w3id.org/fst/resource/{}".format(uuid),
+        # "p_id": "https://w3id.org/fst/resource/{}".format(uuid),
+        "p_id": "",
     }
 
     # Name the file after the uuid.
