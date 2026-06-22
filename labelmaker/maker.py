@@ -1,4 +1,5 @@
 import json
+from typing import Union, Optional
 from pathlib import Path
 
 from uuid6 import uuid6
@@ -15,7 +16,7 @@ SUPPORTED_DEVICES_TYPES = [
 
 def generate_files(
     devices_information: list[dict],
-    generate_path: [str, Path] = Path(__file__).parent.parent,
+    generate_path: Union[str, Path] = Path(__file__).parent.parent,
 ):
     """Generate device metadata templates and QR code labels.
 
@@ -40,6 +41,9 @@ def generate_files(
         TypeError: If generate_path is not a string or Path object.
 
     """
+    if isinstance(generate_path, str):
+        generate_path = Path(generate_path)
+
     _generate_dir(generate_path)
 
     for device in devices_information:
@@ -75,7 +79,7 @@ def generate_files(
 
 def _generate_label(
     data_dict: dict,
-    path_for_generated_files: [str, Path],
+    path_for_generated_files: Union[str, Path],
 ):
     if isinstance(path_for_generated_files, str):
         path_for_generated_files = Path(path_for_generated_files)
@@ -95,13 +99,13 @@ def _generate_label(
     else:
         qr_content = data_dict["internal_id"]
     utilities.generate_QR_code(qr_content, qr_code_file_path)
-    print("[INFO] QR code generated at: {}".format(qr_code_file_path))
+    print("[INFO] QR code generated at: {}".format(_file_link(qr_code_file_path)))
     utilities.generate_pID_QR_code_label(label_file_path, qr_code_file_path, data_dict)
-    print("[INFO] Label generated at: {}".format(label_file_path))
+    print("[INFO] Label generated at: {}".format(_file_link(label_file_path)))
 
 
 def _generate_json_file(
-    device_type: str, uuid: str, path_for_generated_files: [str, Path]
+    device_type: str, uuid: str, path_for_generated_files: Union[str, Path]
 ):
     # check if file exists
     if isinstance(path_for_generated_files, str):
@@ -109,7 +113,7 @@ def _generate_json_file(
     if (path_for_generated_files / "device.json").exists():
         print(
             "[INFO] device.json file already exists: {}, nothing to do.".format(
-                path_for_generated_files
+                _file_link(path_for_generated_files)
             )
         )
         return
@@ -123,7 +127,7 @@ def _generate_json_file(
         json.dump(json_dict, json_file, indent=4)
         print(
             "[INFO] Metadata for {} generated at: {}".format(
-                device_type, path_for_generated_files / "device.json"
+                device_type, _file_link(path_for_generated_files / "device.json")
             )
         )
 
@@ -132,7 +136,7 @@ def _generate_uuid():
     return str(uuid6())
 
 
-def _generate_dir(dir: [str, Path]) -> Path:
+def _generate_dir(dir: Union[str, Path]) -> Path:
     if isinstance(dir, str):
         path = Path(dir)
         path.mkdir(parents=True, exist_ok=True)
@@ -141,3 +145,8 @@ def _generate_dir(dir: [str, Path]) -> Path:
         return dir
     else:
         raise TypeError("generate_path must be a string or a Path object.")
+
+def _file_link(path: Path, text: Optional[str]=None):
+    p = path.resolve()
+    label = text or str(p)
+    return f"\033]8;;{p.as_uri()}\a{label}\033]8;;\a"
