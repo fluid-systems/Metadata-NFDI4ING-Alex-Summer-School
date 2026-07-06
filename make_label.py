@@ -35,21 +35,10 @@ def main():
             # Raspberry Pi device with a specific UUID
             "device_type": "raspberrypi",
             # Pre-defined UUID
+            "uuid": "1f05bf43-01f8-6438-829b-847004ffa403",
             # Custom message for the label, please think of meaningful message.
-            "message": "+",
+            "message": "test",
         },
-        {
-            "device_type": "temperature",
-        },
-        {
-            "device_type": "temperature",
-        },
-        {
-            "device_type": "acceleration",
-        },
-        {
-            "device_type": "kettle",
-        }
     ]
 
     generate_files(devices_information)
