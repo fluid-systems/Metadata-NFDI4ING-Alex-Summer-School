@@ -1,0 +1,30 @@
+{
+    "JSON": {
+        "ID": "1f1794e9-ba91-6663-816f-abc5219acab0",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "",
+        "type": "kettle",
+        "owner": "",
+        "properties": {
+            "volumen": {
+                "value": 0,
+                "unit": ""
+            },
+            "power": {
+                "value": 0,
+                "unit": ""
+            },
+            "color": "",
+            "material": "",
+            "medium": {
+                "name": "",
+                "value": 0,
+                "unit": ""
+            }
+        },
+        "comment": ""
+    }
+}

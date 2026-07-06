@@ -30,29 +30,15 @@ def main():
     #     ValueError: If device_type is missing or not supported.
     #     TypeError: If generate_path is not a string or Path object.
 
-
     devices_information = [
         {
             # Raspberry Pi device with a specific UUID
             "device_type": "raspberrypi",
             # Pre-defined UUID
-            #"uuid": "1f051e50-70f8-686a-aa62-bc0e1b38e956",
+            "uuid": "1f051e50-70f8-686a-aa62-bc0e1b38e956",
             # Custom message for the label, please think of meaningful message.
-            "message": "Located at Table 1 - Sharifi,Gast - 2026-07-06",
+            "message": "test",
         },
-        {
-            "device_type": "temperature",
-        },
-        {
-            "device_type": "temperature",
-        },
-        {
-            "device_type": "acceleration",
-        },
-        {
-            "device_type": "kettle",
-            "message": "Located at Table 1 - Sharifi,Gast - 2026-07-06",
-        }
     ]
 
     generate_files(devices_information)
