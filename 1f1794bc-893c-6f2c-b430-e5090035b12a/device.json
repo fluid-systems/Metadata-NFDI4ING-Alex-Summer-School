@@ -1,0 +1,25 @@
+{
+    "JSON": {
+        "ID": "1f1794bc-893c-6f2c-b430-e5090035b12a",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "Temperatur 2",
+        "type": "DS18B20",
+        "owner": "TU Darmstadt",
+        "manufacturer": "MAXIM",
+        "serial": "unknown",
+        "range": {
+            "min": -55,
+            "max": 125,
+            "units": "degree celsius"
+        },
+        "accuracy": {
+            "value": 0,
+            "type": "(relative/absolute/fromMaximum)",
+            "unit": "(degree_celsius/percent)"
+        },
+        "comment": "-"
+    }
+}

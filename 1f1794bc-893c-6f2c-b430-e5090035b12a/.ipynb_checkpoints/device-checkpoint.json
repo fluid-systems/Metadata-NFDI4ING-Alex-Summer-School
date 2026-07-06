@@ -1,0 +1,25 @@
+{
+    "JSON": {
+        "ID": "1f1794bc-893c-6f2c-b430-e5090035b12a",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "",
+        "type": "DS18B20",
+        "owner": "",
+        "manufacturer": "",
+        "serial": "",
+        "range": {
+            "min": 0,
+            "max": 0,
+            "units": ""
+        },
+        "accuracy": {
+            "value": 0,
+            "type": "(relative/absolute/fromMaximum)",
+            "unit": "(degree_celsius/percent)"
+        },
+        "comment": ""
+    }
+}

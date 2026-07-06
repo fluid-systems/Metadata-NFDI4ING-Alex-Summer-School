@@ -1,0 +1,48 @@
+{
+    "JSON": {
+        "ID": "1f1794bd-56a2-61f8-a9c6-7b94143426a1",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "",
+        "type": "ADXL345",
+        "owner": "",
+        "range": {
+            "config_1": {
+                "min": -2,
+                "max": 2,
+                "units": "standard_gravity"
+            }
+        },
+        "frequency": {
+            "config_1": {
+                "value": 100,
+                "units": "Hertz"
+            }
+        },
+        "resolution": {
+            "value": 0,
+            "unit": "",
+            "comment": ""
+        },
+        "0g-offset": {
+            "x-axes": {
+                "min": 0,
+                "max": 0,
+                "units": ""
+            },
+            "y-axes": {
+                "min": 0,
+                "max": 0,
+                "units": ""
+            },
+            "z-axes": {
+                "min": 0,
+                "max": 0,
+                "units": ""
+            }
+        },
+        "comment": ""
+    }
+}

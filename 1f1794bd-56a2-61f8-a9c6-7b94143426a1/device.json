@@ -1,0 +1,48 @@
+{
+    "JSON": {
+        "ID": "1f1794bd-56a2-61f8-a9c6-7b94143426a1",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "Acceleration Sensor",
+        "type": "ADXL345",
+        "owner": "TU Darmstadt",
+        "range": {
+            "config_1": {
+                "min": -2,
+                "max": 2,
+                "units": "standard_gravity"
+            }
+        },
+        "frequency": {
+            "config_1": {
+                "value": 100,
+                "units": "Hertz"
+            }
+        },
+        "resolution": {
+            "value": 10,
+            "unit": "bits",
+            "comment": ""
+        },
+        "0g-offset": {
+            "x-axes": {
+                "min": -150,
+                "max": 150,
+                "units": "mg"
+            },
+            "y-axes": {
+                "min": -150,
+                "max": 150,
+                "units": "mg"
+            },
+            "z-axes": {
+                "min": -250,
+                "max": 250,
+                "units": "mg"
+            }
+        },
+        "comment": "-"
+    }
+}
