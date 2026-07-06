@@ -1,0 +1,30 @@
+{
+    "JSON": {
+        "ID": "1f1794e2-f782-6433-b953-53e984003fbf",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "822",
+        "type": "kettle",
+        "owner": "TUD/FB16 FST",
+        "properties": {
+            "volumen": {
+                "value": 1.2,
+                "unit": "l"
+            },
+            "power": {
+                "value": 2200,
+                "unit": "W"
+            },
+            "color": "black/silver",
+            "material": "mixed",
+            "medium": {
+                "name": "",
+                "value": 0,
+                "unit": ""
+            }
+        },
+        "comment": ""
+    }
+}
