@@ -1,0 +1,30 @@
+{
+    "comment": "You can write down something important about this setup file, list below all components, you used in your experiment.",
+	"setup": {
+		"1f1794e2-f6c4-60e7-b531-bfb794e456b1": {
+            "type": "temperature sensor 1",
+			"name": "optinal metadata: name of component, e.g. 'central computer'",
+            "comment": "optinal metadata: comment about this component, e.g. 'this is the main computer of the experiment'"
+        },
+		"1f1794e2-f60b-6040-a82f-29a045f245f8": {
+            "type": "raspberry pi",
+			"name": "optinal metadata: name of component, e.g. 'central computer'",
+            "comment": "optinal metadata: comment about this component, e.g. 'this is the main computer of the experiment'"
+        },
+        "1f1794e2-f72c-69e6-aae8-fb3e423d0efd": {
+            "type": "acceleration sensor",
+			"name": "optinal metadata: name of component, e.g. 'central computer'",
+            "comment": "optinal metadata: comment about this component, e.g. 'this is the main computer of the experiment'"
+        },
+        "1f1794e2-f669-63a1-a80e-3a771a289af9": {
+            "type": "temperature sensor 2",
+			"name": "optinal metadata: name of component, e.g. 'central computer'",
+            "comment": "optinal metadata: comment about this component, e.g. 'this is the main computer of the experiment'"
+        },
+        "1f1794e2-f782-6433-b953-53e984003fbf": {
+            "type": "kettle",
+			"name": "optinal metadata: name of component, e.g. 'central computer'",
+            "comment": "optinal metadata: comment about this component, e.g. 'this is the main computer of the experiment'"
+        },
+	}
+}
