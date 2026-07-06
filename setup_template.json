@@ -1,0 +1,29 @@
+{
+    "comment": "A test rig for measuring the temperature and acceraltion of kettel.",
+	"setup": {
+		"1f1794a5-554e-6b74-a515-9aa01e23eab4": {
+            "type": "raspberry pi",
+			"name": "central computer",
+            "comment": "this is the main computer of the experiment"
+        },
+		"1f1794a5-55a7-630f-a300-3d1e5bb9f08a": {
+            "type": "Termometer",
+    		"name": "sensor",
+            "comment": ""
+        }
+        "1f1794a5-55f5-6a84-8165-dc38b01effc3": {
+            "type": "Termometer 2",
+    		"name": "sensor",
+            "comment": ""
+        }
+        "1f1794a5-563d-65a5-9fe8-5cfb812de940": {
+            "type": "Accelerometer",
+    		"name": "sensor",
+            "comment": ""
+        }
+        "1f1794a5-5683-6e0f-98a8-815e915f5d60": {
+            "type": "Kettel",
+    		"name": "Target object",
+            "comment": ""
+	}
+}

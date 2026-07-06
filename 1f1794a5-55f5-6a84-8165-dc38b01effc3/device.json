@@ -1,0 +1,25 @@
+{
+    "JSON": {
+        "ID": "1f1794a5-55f5-6a84-8165-dc38b01effc3",
+        "label": "Temperature 2",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "Programmable Resolution 1-Wire Digital Thermometer",
+        "type": "DS18B20",
+        "owner": "",
+        "manufacturer": "Maxim",
+        "serial": "FP03950",
+        "range": {
+            "min": -55,
+            "max": 125,
+            "units": "°C"
+        },
+        "accuracy": {
+            "value": ±0.5,
+            "type": "(absolute)",
+            "unit": "(degree_celsius)"
+        },
+        "comment": ""
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "JSON": {
+        "ID": "1f1794a5-5683-6e0f-98a8-815e915f5d60",
+        "label": "Kettle",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "KORONA",
+        "type": "kettle",
+        "owner": "",
+        "properties": {
+            "volumen": {
+                "value": 1.2,
+                "unit": "L"
+            },
+            "power": {
+                "value": 1850-2200,
+                "unit": "W"
+            },
+            "color": "Metal",
+            "material": "Glas, Metal, Plastic",
+            "medium": {
+                "name": "Water",
+                "value": 1.2,
+                "unit": "L"
+            }
+        },
+        "comment": ""
+    }
+}
