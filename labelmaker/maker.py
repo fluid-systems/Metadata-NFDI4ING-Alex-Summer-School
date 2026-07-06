@@ -1,6 +1,6 @@
 import json
-from typing import Union, Optional
 from pathlib import Path
+from typing import Optional, Union
 
 from uuid6 import uuid6
 
@@ -69,7 +69,7 @@ def generate_files(
             "product_name": device_type,
             "message": message,
             "link": http_link,
-            "p_id": device.get("p_id", ""),
+            "p_id": device.get("p_id", "https://w3id.org/fst/resource/{}".format(uuid)),
         }
 
         _generate_json_file(device_type, uuid, path_for_generated_files)
@@ -146,7 +146,8 @@ def _generate_dir(dir: Union[str, Path]) -> Path:
     else:
         raise TypeError("generate_path must be a string or a Path object.")
 
-def _file_link(path: Path, text: Optional[str]=None):
+
+def _file_link(path: Path, text: Optional[str] = None):
     p = path.resolve()
     label = text or str(p)
     return f"\033]8;;{p.as_uri()}\a{label}\033]8;;\a"
