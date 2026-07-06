@@ -1,0 +1,17 @@
+{
+    "JSON": {
+        "ID": "1f1794a2-de5d-63c1-8327-15c574d1f730",
+        "label": "",
+        "comment": "UUID6 is used"
+    },
+    "device": {
+        "name": "",
+        "type": "single-board computer",
+        "owner": "",
+        "manufacturer": "",
+        "serial": "to get model and serial number put this code in the terminal: cat /proc/cpuinfo",
+        "model": "",
+        "operating_system": "",
+        "comment": ""
+    }
+}
