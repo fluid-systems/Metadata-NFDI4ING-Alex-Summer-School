@@ -34,11 +34,33 @@ def main():
     devices_information = [
         {
             # Raspberry Pi device with a specific UUID
-            "device_type": "raspberrypi",
-            # Pre-defined UUID
-            "uuid": "1f051e50-70f8-686a-aa62-bc0e1b38e956",
+            "device_type": "temperature",
             # Custom message for the label, please think of meaningful message.
-            "message": "test",
+            "message": "Simon - DS18B20 - no 1",
+        },
+        {
+            # Raspberry Pi device with a specific UUID
+            "device_type": "temperature",
+            # Custom message for the label, please think of meaningful message.
+            "message": "Simon - DS18B20 - no 2",
+        },
+        {
+            # Raspberry Pi device with a specific UUID
+            "device_type": "acceleration",
+            # Custom message for the label, please think of meaningful message.
+            "message": "Simon - ADXL345",
+        },
+        {
+            # Raspberry Pi device with a specific UUID
+            "device_type": "raspberrypi",
+            # Custom message for the label, please think of meaningful message.
+            "message": "Simon - raspberrypi",
+        },
+        {
+            # Raspberry Pi device with a specific UUID
+            "device_type": "kettle",
+            # Custom message for the label, please think of meaningful message.
+            "message": "Simon - kettle",
         },
     ]
 
